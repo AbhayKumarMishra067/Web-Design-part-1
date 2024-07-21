@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    /* border: solid black 5px; */
+    margin: 5px 100px;  /* top and bottum gap 5px and left and right 100px gap. */
+}
+
+.header{
+    border-left: solid #f9f9f9;
+    border-right: solid #f9f9f9;
+    text-align: center;
+    padding : 30px;
+}
+.header > h1> a{
+    text-decoration: none;
+    color: black;
+    font-size: 70px;
+}
+
+.main-nav > ul{
+    background-color: cyan;
+    list-style-type: none;    
+}
+.main-nav > ul> li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+.main-nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.main-nav > ul > li:hover{
+    background-color: grey;
+}
+
+.content{
+    background-color: whitesmoke;
+    min-height: 500px;
+    font-size: 20px;
+    padding: 10px 50px;
+}
+.content > p{
+    text-align: justify;
+}
+
+.content >img {
+     display: block;  /* img by default inline hota hai . */
+     margin-left: auto;
+     margin-right: auto;
+     width: 40%;
+     padding-bottom: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+

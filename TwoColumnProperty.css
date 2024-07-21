@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /*taki kisi mai bhi padding margin dene pr humare content uper niche na ho*/
+}
+.wrapper{
+    margin: 5px 100px;
+}
+.header{
+    background-color:bisque;
+    height: 100px;
+}
+.main-nav{
+    background-color:cornflowerblue;
+    height: 50px;
+}
+.content{
+    background-color: darkorange;
+    min-height: 530px; 
+    float: left;
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+}
+.container::after{
+    /*ye block hum tb use krte hai jab float krne pr humare element css border se
+     bahr ho jate hai ya space sahi se nhi lete hai to unko ek hi container mai
+     lane ke liye hum use krte hai jaise es website mai container ke andr do css 
+     property ko laya gya horizontaly.
+    */
+  content: " ";
+  display: block;
+  clear: both;
+}
+.right-sidebar{
+    float: right;
+    background-color: darkturquoise;
+    min-height: 530px;
+    width: 20%;
+}
+.footer{
+    background-color: darkgray;
+    height: 40px;
+}

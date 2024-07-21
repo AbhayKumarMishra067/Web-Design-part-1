@@ -1,0 +1,33 @@
+*{
+    margin: 0px;  
+    padding: 0px;
+    /*
+      Ye es liye likha jata hai kyoki by default element mai kuchh margin kuchh padding by defult aata hai 
+      vo browser ke hisab se aata hai. to  
+
+    */
+}
+.wrapper{
+     margin: 5px 100px;   /* uper niche 5px and left right 100px gap dena ek page ko */
+
+}
+.header{
+  background-color: darkcyan;
+  height: 150px;
+}  
+.main-nav{
+   background-color: aqua;
+   height: 80px;
+}
+.content{
+    background-color: antiquewhite ;
+    min-height: 500px;
+    padding: 10px 50px;  /*Content ke text ko top buttom se 10px  and 50px left right gap.*/
+    font-size: 20px;
+    text-align: justify;
+   
+}
+.footer{
+    background-color: blueviolet;
+    height: 100px;
+}
